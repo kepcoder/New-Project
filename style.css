@@ -548,6 +548,9 @@ flex-direction:column;
     .page9 a i {
         font-size:1.6rem;
     }
+    .page4 .content .right video{
+    display:initial;
+    }
 }
 
 @media screen and (max-width:480px){

@@ -100,8 +100,9 @@ function passScrollAnimation(){
     })
 }
 function videoPlayAfterEnter(){
-    select('.right').addEventListener('mouseenter',function(){
-        gsap.to('.right video',{
+    select('.page4 .content .right').addEventListener('mouseenter',function(){
+        select('.right video').play()
+        gsap.to('.page4 .content .right video',{
             opacity:1,
             ease:Circ,
         })
@@ -109,10 +110,9 @@ function videoPlayAfterEnter(){
           scale:1.1,
           opacity:0
         })
-        select('.right video').play()
     })
-    select('.right').addEventListener('mouseleave',function(){
-        gsap.to('.right video',{
+    select('.page4 .content .right').addEventListener('mouseleave',function(){
+        gsap.to('.page4 .content .right video',{
             opacity:0,
             ease:Circ,
         })

@@ -101,7 +101,7 @@ function passScrollAnimation(){
 }
 function videoPlayAfterEnter(){
     select('.page4 .content .right').addEventListener('mouseenter',function(){
-        select('.right video').play()
+        select('.page4 .content .right video').play()
         gsap.to('.page4 .content .right video',{
             opacity:1,
             ease:Circ,
@@ -120,8 +120,8 @@ function videoPlayAfterEnter(){
             scale:1,
             opacity:1
         })
-        select('.right video').pause()
-        select('.right video').currentTime = 0
+        select('.page4 .content .right video').pause()
+        select('.page4 .content .right video').currentTime = 0
     })
 }
 function alertKaro(){

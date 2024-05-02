@@ -41,7 +41,7 @@ html,body{
     font-weight:bold;
 }
 nav{    
-    z-index:1;
+    z-index:3;
     background-image:url(navbar-image.png);
     background-size:contain;
     padding-right:5rem;
@@ -189,6 +189,10 @@ overflow: hidden;
 }
 
 
+
+
+
+
 .lock-div{
     background:linear-gradient(135deg , rgba(225,225,225,.1),rgba(225,225,225,0));
     backdrop-filter:blur(20px);
@@ -201,9 +205,6 @@ overflow: hidden;
     letter-spacing:3px;
     line-height:3rem;
 }
-
-
-
 
 
 .page5 .page5-left{
@@ -331,9 +332,17 @@ border-right:none;
 .fixed-div{
    width:90%;
 }
+
+
+
+
+
+
+
 .page5{
     flex-direction:column;
 }
+
 .page5 .page5-left{
     width:100%;
 }
@@ -559,9 +568,6 @@ flex-direction:column;
     .page9 a i {
         font-size:1.6rem;
     }
-    .page4 .content .right video{
-    display:initial;
-    }
 }
 
 @media screen and (max-width:480px){
@@ -591,7 +597,9 @@ flex-direction:column;
 .page10 .owner-div .profile-div{
 padding:0;
 }
-
+.page4 .content .right video{
+    display:initial;
+}
 }
 @media screen and (max-width:430px) {
     
@@ -661,6 +669,12 @@ padding:0;
 
 @media screen and (max-width:380px){
 
+    .lock-div i{
+        letter-spacing:3px;
+        line-height:3rem;
+        font-size:1.5rem;
+        font-weight:bold;
+    }
     .offer-text{
         font-size:.8rem;    
     }
@@ -698,11 +712,5 @@ margin-top:1rem;
     width:15rem;
     height:55vh;
 }
-        .lock-div i{
-        letter-spacing:3px;
-        line-height:3rem;
-        font-size:1.5rem;
-        font-weight:bold;
-    }
 
 }
